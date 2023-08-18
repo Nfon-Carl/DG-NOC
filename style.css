@@ -47,6 +47,10 @@ nav {
   top: 100px;
 }
 
+.hero-section span {
+  color: #69ae14;
+}
+
 .hero-section h1 {
   width: 100%;
 }
@@ -59,4 +63,71 @@ nav {
   padding: 1rem 2.5rem;
   margin-top: 2rem;
   border: 0px;
+}
+
+/* produts */
+
+.collection-1 {
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.item img {
+  width: 262px;
+  height: 262px;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.btn-shop button {
+  position: relative;
+  left: 100px;
+  bottom: 190px;
+  display: inline-block;
+  color: white;
+  background-color: #69ae14;
+  border-radius: 10px;
+  padding: 1rem 2.5rem;
+  margin-top: 2rem;
+  border: 0px;
+}
+
+/* .btn-shop p {
+  position: relative;
+  left: 115px;
+  bottom: 190px;
+  color: white;
+} */
+/* footer */
+
+footer {
+  display: flex;
+  background-color: rgb(27, 26, 26);
+  color: white;
+  height: 40;
+}
+
+footer ul li {
+  list-style: none;
+  position: relative;
+}
+
+.box {
+  margin-left: 100px;
+}
+
+.contact-us {
+  position: relative;
+  left: 120px;
+}
+
+/*  */
+
+.collection-class h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: -10px;
 }
