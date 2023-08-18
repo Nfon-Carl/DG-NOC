@@ -12,6 +12,8 @@ nav {
   display: flex;
   list-style: none;
   text-decoration: none;
+  position: relative;
+  top: 10px;
 }
 
 .nav-links ul a {
@@ -25,4 +27,36 @@ nav {
 
 .links li {
   margin-left: 20px;
+}
+
+/* Hero Section */
+
+.hero-section {
+  background-image: url("/images/hero-1.png");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.hero-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 70;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+.hero-section h1 {
+  width: 100%;
+}
+
+.hero-section button {
+  display: inline-block;
+  color: white;
+  background-color: #69ae14;
+  border-radius: 5px;
+  padding: 1rem 2.5rem;
+  margin-top: 2rem;
+  border: 0px;
 }
