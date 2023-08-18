@@ -68,17 +68,20 @@ nav {
 /* produts */
 
 .collection-1 {
-  margin-left: 60px;
+  margin-left: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  gap: 10px;
   padding: 20px;
+}
+
+.item :hover {
+  opacity: 70%;
 }
 
 .item img {
   width: 262px;
   height: 262px;
-  /* padding: 20px; */
   text-align: center;
 }
 
@@ -130,4 +133,32 @@ footer ul li {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: -10px;
+}
+
+/* new produts */
+
+.grid-container {
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+
+  /* Media Query for Responsive Layout */
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item img {
+  width: 272px;
+  height: 272px;
+}
+.grid-item span {
+  color: #69ae14;
 }
