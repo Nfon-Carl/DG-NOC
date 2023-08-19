@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   width: 100;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 nav {
@@ -107,14 +107,6 @@ nav {
   border: 0px;
 }
 
-/* .btn-shop p {
-  position: relative;
-  left: 115px;
-  bottom: 190px;
-  color: white;
-} */
-/* footer */
-
 footer {
   display: flex;
   background-color: rgb(27, 26, 26);
@@ -158,6 +150,10 @@ footer ul li {
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.grid-container img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .grid-item {
